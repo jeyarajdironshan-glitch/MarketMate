@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    {
+      "name": "nodejs",
+      "root": "backend",
+      "startCommand": "npm ci && npm start"
+    },
+    {
+      "name": "static",
+      "root": "frontend",
+      "buildCommand": "npm ci && npm run build",
+      "publishDirectory": "dist"
+    }
+  ]
+}

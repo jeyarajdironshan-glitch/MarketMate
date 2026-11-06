@@ -1,0 +1,23 @@
+# Node modules – they are re‑installed inside the container
+backend/node_modules
+frontend/node_modules
+
+# Local development / IDE artefacts
+.git
+.gitignore
+README.md
+*.log
+*.md
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.tif
+*.tiff
+*.tmp
+*.DS_Store
+.vscode
+.idea
+
+# Railway / CI artefacts that aren’t needed in the image
+railway.json
